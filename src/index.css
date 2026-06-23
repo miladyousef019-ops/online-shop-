@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{  
+    --main-color: #0090f0;
+    --p-color:#7b7b7b;
+    --bg-color:#f3f3f3;
+    --white-color:#fff;
+    --color-heading:#253237;
+    --border-color:#d6d6d6d5;
+
+}
+body{
+    background: #fff;
+   
+}
+img{
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--color-heading);
+    font-family: 'DM sans', sans-serif;
+}
+span{
+    color: var(--main-color);
+}
+p{
+    color: var(--p-color);
+}
+input,button,select,textarea{
+    outline: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: var(--color-heading);
+}
+.container{
+    width: 90%;
+    margin: auto;
+    max-width: 1350px;
+}
+.btn{
+    padding: 10px 18px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    cursor: pointer;
+    background: var(--main-color);
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition: 0.3s;
+    align-items: center;
+    text-align: center;
+    width: max-content;
+}
+.btn:hover{
+    scale: 1.1;
+}
+
+
+.toast-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    min-width: 300px;
+    max-width: 300px;
+   
+}
+.toast-img{
+    width: auto;
+    height: 50px;
+    object-fit: cover;
+}
+.toast-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+.toast-wrapper strong{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.toast-content button{
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

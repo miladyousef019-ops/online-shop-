@@ -1,0 +1,158 @@
+:root{  
+    --main-color: #0090f0;
+    --p-color:#7b7b7b;
+    --bg-color:#f3f3f3;
+    --white-color:#fff;
+    --color-heading:#253237;
+    --border-color:#d6d6d6d5;
+
+}
+.checkout{
+    margin: 20px 0px;
+}
+.ordersummray{
+    width: 45%;
+    min-width :500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px var(--border-color);
+    box-shadow: 0 18px 13px 12px var(--border-color);
+    border-radius: 5px;
+}
+.ordersummray .items{
+    height: 350px;
+    overflow-y: auto;
+}
+.ordersummray h1{
+    color: var(--main-color);
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+.ordersummray .item-cart{
+    display: flex;
+    justify-content: space-between;
+}
+.ordersummray .item-cart .pecet{
+    width: 80px;
+  
+}
+.img-side{
+    display: flex;
+    gap: 20px;
+}
+.delate-item{
+    outline: none;
+    border: none;
+    background: transparent;
+
+}
+.delate-item svg{
+    color: rgb(243, 21, 5);
+    font-size: 25px;
+    transition: 0.3s;
+}
+.delate-item:hover svg{
+    scale: 1.2;
+}
+.text h3{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.item-cart{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 125px;
+    border-bottom: 1px solid var(--border-color);
+    padding-right: 20px;
+}
+.count-control{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.count-control button{
+    height: 27px;
+    width: 27px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    font-family: 20px;
+}
+.cou1nt-control .quantity{
+    min-width: 40px;
+    font-size: 22px;
+}
+.button-summary .shop-table{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color) ;
+    border-top: 1px solid var(--border-color) ;
+
+}
+.shop-table p{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: var(--color-heading);
+}
+.shop-table span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.button-div{
+    margin-top: 30px;
+    background-color: var(--main-color);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-div button{
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

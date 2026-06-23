@@ -1,0 +1,134 @@
+:root{  
+    --main-color: #0090f0;
+    --p-color:#7b7b7b;
+    --bg-color:#f3f3f3;
+    --white-color:#fff;
+    --color-heading:#253237;
+    --border-color:#d6d6d6d5;
+
+}
+
+header{
+    
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+}
+
+.item-details{
+    padding: 50px 0 ;
+}
+.item-details .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgs-item{
+    width: 40%;
+    
+   
+}
+.big-img{
+    max-height: 450px;
+    width: auto ;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.imgs-item .sm-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgs-item .sm-img img{
+    width: 24%;
+
+}
+.item-details .details-item{
+    width: 57%;
+}
+.details-item h1{
+    font-size: 26px;
+    color: var(--main-color);
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.stars svg{
+    font-size: 15px;
+}
+.price{
+    color: #000;
+    margin-bottom: 17px;
+}
+.details-item h5{
+    margin-bottom: 15px;
+}
+.details-item p{
+    margin-bottom: 15px;
+}
+.hurry{margin-bottom: 15px;}
+.add{
+    background: var(--main-color);
+    width: 130px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px ;
+    margin-bottom: 19px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.add:hover{
+    transform: scale(1.2);
+}
+.add svg{
+    fill: #fff;
+    font-size: 18px;
+}
+.add a{
+    color: #fff;
+}
+.details-item .icons{
+    display: flex;
+    gap: 10px;
+    
+    margin: 20px 0;
+}
+.details-item .icons span{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+}
+.details-item .icons span:hover{
+    background-color: #0090f0;
+
+}
+.details-item .icons span:hover svg{
+    fill: #fff;
+
+}
+
+.btn.in-cart{
+    background-color: #fff;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+
+
+
+
+
+
